@@ -34,7 +34,7 @@ h_power = st.sidebar.slider("h_power:",min_value=80, max_value=230)
 age = st.sidebar.slider("age:",min_value=0, max_value=3)
 
 
-km = st.sidebar.slider("km:",min_value=100, max_value=200000)
+km = st.sidebar.slider("km:",min_value=1000, max_value=200000)
 gears = st.sidebar.slider("Gears:",min_value=5, max_value=8)
     
 
@@ -54,7 +54,7 @@ st.table(df)
 
 if st.button("Predict"): 
     pred = model.predict(df)
-    st.success("The estimated price of your car is €{}. ".format(int(prediction[0])))
+    st.success("The estimated price of your car is €{}. ".format(int(pred[0])))
 
 
 
