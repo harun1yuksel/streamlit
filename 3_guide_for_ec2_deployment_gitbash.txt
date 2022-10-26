@@ -63,7 +63,7 @@ $ sudo yum install git
 
 a. method 1 : use git clone method:
 
-      $ git clone https://github.com/richardclarusway/inclass_streamlit.git
+      $ git clone https://github.com/.....
 
   (before that you need to copy the htpps addres from your git accout)
 
@@ -79,11 +79,13 @@ b. Method 2: if you are using vs code:
 c. method 3: 
  
 if you cannot copy via vscode use secure copy method:
-
-   scp -i richard_new_3.pem requirements.txt ec2-user@52.71.254.30:/home/ec2-user/streamlit6
+	
+	upload file from terminal
+     
+   scp -i .....pem requirements.txt ec2-user@....:/home/ec2-user/streamlit
                   
-   (your keypair should at the same the directory with target data)
-
+	In the folder where the pem file is located, open terminal and write the filename with the path instead of filename. 
+	Find your user@.... from the aws console and replace it. The command will write to the folder in ec2
 
 11. cd to folder downloaded from github (cd: change directory)
 
@@ -155,7 +157,7 @@ tmux kill-session -t st_instance
 
 22. upload file from terminal
   
-   scp -i "harun2.pem" filename ec2-user@ec2-44-203-48-249.compute-1.amazonaws.com:/home/ec2-user/inclass_streamlit/
+   scp -i ".....pem" filename ec2-user@......compute-1.amazonaws.com:/home/ec2-user/inclass_streamlit/
 
 In the folder where the pem file is located, open terminal and write the filename with the path instead of filename. 
 Find your user@.... from the aws console and replace it. The command will write to the folder in ec2
