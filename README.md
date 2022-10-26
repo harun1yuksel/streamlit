@@ -1,2 +1,2 @@
 # streamlit
-streamlit deployment
+streamlit deployment on AWS
