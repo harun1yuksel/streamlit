@@ -8,7 +8,7 @@ st.title("This is a Car Price Prediction Application")
 st.markdown('###### Trained and Deployed by Harun Yüksel')
 st.markdown('### The model was trained with the following cars, which are up to 3 years old. If you make predictions for these or similar cars, you will get more accurate results')
 
-st.info("'Audi A1', 'Audi A3', 'Opel Astra', 'Opel Corsa', 'Opel Insignia', 'Renault Clio', 'Renault Duster', 'Renault Espace'")
+st.info("Audi A1, Audi A3, Opel Astra, Opel Corsa, Opel Insignia, Renault Clio, Renault Duster, Renault Espace")
 
 st.markdown("## Please enter the information of your car from the left side bar and below")
 
