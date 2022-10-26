@@ -5,6 +5,9 @@ from PIL import Image
 
 st.title("This is a Car Price Prediction Application")
 
+img = Image.open("car_image.jpg")
+st.image(img, width=320)
+
 st.markdown('###### Trained and Deployed by Harun Yüksel')
 st.markdown('### The model was trained with the following cars, which are up to 3 years old. If you make predictions for these or similar cars, you will get more accurate results')
 
