@@ -80,7 +80,7 @@ c. method 3:
  
 if you cannot copy via vscode use secure copy method:
 	
-	upload file from terminal. open a new terminal where your ..pem file is located.
+	upload file from terminal. open a new terminal where your ..pem file is located.gi
      
    scp -i .....pem requirements.txt ec2-user@....:/home/ec2-user/streamlit
                   
